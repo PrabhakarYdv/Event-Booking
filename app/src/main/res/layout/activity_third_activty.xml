@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1C9C9"
+    android:orientation="vertical"
+    tools:context=".ThirdActivty">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/firstName"
+            style="@style/display_entry"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="100dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/lastName"
+            style="@style/display_entry"
+            android:layout_marginRight="20dp"
+            android:layout_toRightOf="@id/firstName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/_email_"
+            style="@style/display_entry"
+            android:layout_below="@id/firstName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/_phone_"
+            style="@style/display_entry"
+            android:layout_below="@id/_email_"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/_seats_"
+            style="@style/display_entry"
+            android:layout_below="@id/_phone_"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/_date_"
+            style="@style/display_entry"
+            android:layout_below="@id/_seats_"
+            android:text="" />
+
+        <Button
+            android:id="@+id/confirm_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/_seats_"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="150dp"
+            android:backgroundTint="#BC1C2B"
+            android:fontFamily="@font/bungee"
+            android:paddingHorizontal="90dp"
+            android:text="Confirm"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>
